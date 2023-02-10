@@ -186,3 +186,53 @@ p {
 	font-weight: 800;
 	border-width: 3px;
 }
+/*Surplus CSS*/
+img:hover {
+	transform: scale(1.1);
+	cursor: pointer;
+}
+footer {
+	padding: 20px 0px;
+	background-color: var(--drak-grey-color);
+}
+footer p {
+	color: white;
+	text-align: center;
+}
+footer a {
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+
+@media screen and (max-width: 992px) {
+	.container {
+		min-width: 100%;
+		max-width: 100%;
+	}
+	article {
+		width: 100%;
+		margin: 0px 0px;
+
+	}
+	img {
+		width: 90%;
+		margin-left: 5px;
+		cursor: pointer;
+		transform: scale(0.9);
+	}
+	p {
+		font-size: 14px;
+		line-height: 15px;
+		text-overflow: ellipsis;
+		margin-left: 10px;
+	}
+	h3 {
+		font-size: 20px;
+		line-height: 22px;
+		margin-left: 10px;
+	}
+	footer a {
+		margin-left: 0px;
+	}
+}
